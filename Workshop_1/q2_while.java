@@ -3,10 +3,7 @@ public class q2_while {
         int sayi = 0;
 
         while (sayi < 30) {
-            //System.out.println("Sayı: " + sayi);
-            sayi++;  //sayıyı artırmayı unutmamak önemli!
-            // sayi += 1
-            // sayi = sayi + 1
+            sayi++;
             if(sayi % 2 == 0)
             {
                 System.out.println(sayi + " sayısı çift sayıdır.");
